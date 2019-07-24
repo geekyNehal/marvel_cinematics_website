@@ -15,5 +15,11 @@ incredible_hulk=media.Movie("THE INCREDIBLE HULK",
 #print(incredible_hulk.storyline)
 #incredible_hulk.show_trailer()
 
+iron_man_02=media.Movie("IRON MAN 2",
+                        "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.",
+                        "https://en.wikipedia.org/wiki/Iron_Man_2#/media/File:Iron_Man_2_poster.jpg",
+                        "https://www.youtube.com/watch?v=BoohRoVA9WQ")
+
+
 movies=[iron_man_01,incredible_hulk]
 fresh_tomatoes.open_movies_page(movies)
