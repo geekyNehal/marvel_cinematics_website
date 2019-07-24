@@ -17,9 +17,24 @@ incredible_hulk=media.Movie("THE INCREDIBLE HULK",
 
 iron_man_02=media.Movie("IRON MAN 2",
                         "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.",
-                        "https://en.wikipedia.org/wiki/Iron_Man_2#/media/File:Iron_Man_2_poster.jpg",
+                        "https://upload.wikimedia.org/wikipedia/en/e/ed/Iron_Man_2_poster.jpg",
                         "https://www.youtube.com/watch?v=BoohRoVA9WQ")
 
+thor=media.Movie("THOR ",
+                 "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
+                 "https://upload.wikimedia.org/wikipedia/en/f/fc/Thor_poster.jpg",
+                 "https://www.youtube.com/watch?v=JOddp-nlNvQ")
 
-movies=[iron_man_01,incredible_hulk]
+the_first_avenger=media.Movie("THE FIRST AVENGER",
+                              "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a Super-Soldier serum",
+                              "https://upload.wikimedia.org/wikipedia/en/3/37/Captain_America_The_First_Avenger_poster.jpg",
+                              "https://www.youtube.com/watch?v=JerVrbLldXw")
+
+the_avenger=media.Movie("The Avenger",
+                        "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+                        "https://upload.wikimedia.org/wikipedia/en/f/f9/TheAvengers2012Poster.jpg",
+                        "https://www.youtube.com/watch?v=eOrNdBpGMv8")
+
+
+movies=[iron_man_01,incredible_hulk,iron_man_02,thor,the_first_avenger,the_avenger]
 fresh_tomatoes.open_movies_page(movies)
