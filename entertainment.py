@@ -35,6 +35,21 @@ the_avenger=media.Movie("The Avenger",
                         "https://upload.wikimedia.org/wikipedia/en/f/f9/TheAvengers2012Poster.jpg",
                         "https://www.youtube.com/watch?v=eOrNdBpGMv8")
 
+iron_man_03=media.Movie("Iron Man 3",
+                        "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+                        "https://upload.wikimedia.org/wikipedia/en/d/d5/Iron_Man_3_theatrical_poster.jpg",
+                        "https://www.youtube.com/watch?v=YLorLVa95Xo")
 
-movies=[iron_man_01,incredible_hulk,iron_man_02,thor,the_first_avenger,the_avenger]
+thor_dark_world=media.Movie("Thor The Dark World",
+                            "When Dr. Jane Foster (Natalie Portman) gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves.",
+                            "https://upload.wikimedia.org/wikipedia/en/7/7e/Thor_-_The_Dark_World_poster.jpg",
+                            "https://www.youtube.com/watch?v=npvJ9FTgZbM")
+
+winter_soldier=media.Movie("The Winter Soldier",
+                           "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
+                           "https://upload.wikimedia.org/wikipedia/en/e/e8/Captain_America_The_Winter_Soldier.jpg",
+                           "https://www.youtube.com/watch?v=7SlILk2WMTI")
+
+
+movies=[iron_man_01,incredible_hulk,iron_man_02,thor,the_first_avenger,the_avenger,iron_man_03,thor_dark_world,winter_soldier]
 fresh_tomatoes.open_movies_page(movies)
